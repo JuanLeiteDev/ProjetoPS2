@@ -33,7 +33,7 @@ int main(){
         printf("Introduza o ANO (ex: 2025): ");
         scanf("%d", &ano);
         if (ano < 1 || ano > 2026) {
-            printf("Mês inválido!\n"); 
+            printf("Ano inválido!\n"); 
             ok = 0;
         } else ok = 1;
     } while(!ok);
